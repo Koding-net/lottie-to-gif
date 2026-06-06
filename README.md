@@ -105,14 +105,14 @@ Returns `Promise<{ output, frames, fps, width, height }>`.
 ## GIF vs other formats
 
 GIF uses a 256-color palette, which may cause banding on complex gradients. For better quality:
-- **More colors / transparency** → use [@kodeking/lottie-to-webp](https://github.com/kodeking/lottie-to-webp) (animated WebP)
-- **Video (no size limit)** → use [@kodeking/lottie-to-mp4](https://github.com/kodeking/lottie-to-mp4) or [@kodeking/lottie-to-webm](https://github.com/kodeking/lottie-to-webm)
+- **More colors / transparency** → use [@kodeking/lottie-to-webp](https://github.com/Koding-net/lottie-to-webp) (animated WebP)
+- **Video (no size limit)** → use [@kodeking/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) or [@kodeking/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm)
 
 ---
 
 ## License
 
-MIT © [KodeKing](https://github.com/kodeking)
+MIT © [KodeKing](https://github.com/Koding-net)
 
 ---
 
@@ -120,10 +120,10 @@ MIT © [KodeKing](https://github.com/kodeking)
 
 | Package | Description |
 |---|---|
-| [@kodeking/lottie-to-mp4](https://github.com/kodeking/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
-| [@kodeking/lottie-to-webm](https://github.com/kodeking/lottie-to-webm) | Render Lottie to WebM with transparency (Node.js) |
-| [@kodeking/lottie-to-webp](https://github.com/kodeking/lottie-to-webp) | Render Lottie to animated WebP (Node.js) |
-| [@kodeking/lottie-to-apng](https://github.com/kodeking/lottie-to-apng) | Render Lottie to animated PNG (Node.js) |
-| [@kodeking/lottie-to-svg](https://github.com/kodeking/lottie-to-svg) | Extract SVG frames in the browser |
+| [@kodeking/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
+| [@kodeking/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm) | Render Lottie to WebM with transparency (Node.js) |
+| [@kodeking/lottie-to-webp](https://github.com/Koding-net/lottie-to-webp) | Render Lottie to animated WebP (Node.js) |
+| [@kodeking/lottie-to-apng](https://github.com/Koding-net/lottie-to-apng) | Render Lottie to animated PNG (Node.js) |
+| [@kodeking/lottie-to-svg](https://github.com/Koding-net/lottie-to-svg) | Extract SVG frames in the browser |
 
-See all tools at [github.com/kodeking/lottie-tools](https://github.com/kodeking/lottie-tools).
+See all tools at [github.com/Koding-net/lottie-tools](https://github.com/Koding-net/lottie-tools).
