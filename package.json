@@ -1,5 +1,5 @@
 {
-  "name": "@kodeking/lottie-to-gif",
+  "name": "@koding-net/lottie-to-gif",
   "version": "1.0.0",
   "description": "Convert Lottie JSON animations to animated GIF — Node.js CLI and programmatic API",
   "main": "src/index.js",
@@ -20,7 +20,7 @@
     "puppeteer",
     "gifski",
     "ffmpeg",
-    "kodeking"
+    "koding-net"
   ],
   "author": "KodeKing <hello@kodeking.dev>",
   "license": "MIT",

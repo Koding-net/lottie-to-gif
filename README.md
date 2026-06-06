@@ -1,9 +1,9 @@
-# @kodeking/lottie-to-gif
+# @koding-net/lottie-to-gif
 
 > Convert Lottie JSON animations to animated GIF — **Node.js CLI + programmatic API**
 
-[![npm](https://img.shields.io/npm/v/@kodeking/lottie-to-gif)](https://www.npmjs.com/package/@kodeking/lottie-to-gif)
-[![license](https://img.shields.io/npm/l/@kodeking/lottie-to-gif)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@koding-net/lottie-to-gif)](https://www.npmjs.com/package/@koding-net/lottie-to-gif)
+[![license](https://img.shields.io/npm/l/@koding-net/lottie-to-gif)](LICENSE)
 
 Renders every frame of a Lottie animation using **Puppeteer + lottie-web**, then encodes to GIF using **gifski** (preferred) or **ffmpeg** (fallback). Try it live at [iconking.net/tools/lottie-to-gif](https://iconking.net/tools/lottie-to-gif).
 
@@ -24,9 +24,9 @@ Puppeteer (Chromium) is bundled as an npm dependency — no separate browser ins
 ## Install
 
 ```bash
-npm install -g @kodeking/lottie-to-gif
+npm install -g @koding-net/lottie-to-gif
 # or use without installing:
-npx @kodeking/lottie-to-gif input.json output.gif
+npx @koding-net/lottie-to-gif input.json output.gif
 ```
 
 ---
@@ -65,7 +65,7 @@ lottie-to-gif my-animation.json
 ## Programmatic API
 
 ```js
-const { convertToGif } = require('@kodeking/lottie-to-gif');
+const { convertToGif } = require('@koding-net/lottie-to-gif');
 
 const result = await convertToGif({
   input:   'animation.json',
@@ -105,8 +105,8 @@ Returns `Promise<{ output, frames, fps, width, height }>`.
 ## GIF vs other formats
 
 GIF uses a 256-color palette, which may cause banding on complex gradients. For better quality:
-- **More colors / transparency** → use [@kodeking/lottie-to-webp](https://github.com/Koding-net/lottie-to-webp) (animated WebP)
-- **Video (no size limit)** → use [@kodeking/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) or [@kodeking/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm)
+- **More colors / transparency** → use [@koding-net/lottie-to-webp](https://github.com/Koding-net/lottie-to-webp) (animated WebP)
+- **Video (no size limit)** → use [@koding-net/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) or [@koding-net/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm)
 
 ---
 
@@ -120,10 +120,10 @@ MIT © [KodeKing](https://github.com/Koding-net)
 
 | Package | Description |
 |---|---|
-| [@kodeking/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
-| [@kodeking/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm) | Render Lottie to WebM with transparency (Node.js) |
-| [@kodeking/lottie-to-webp](https://github.com/Koding-net/lottie-to-webp) | Render Lottie to animated WebP (Node.js) |
-| [@kodeking/lottie-to-apng](https://github.com/Koding-net/lottie-to-apng) | Render Lottie to animated PNG (Node.js) |
-| [@kodeking/lottie-to-svg](https://github.com/Koding-net/lottie-to-svg) | Extract SVG frames in the browser |
+| [@koding-net/lottie-to-mp4](https://github.com/Koding-net/lottie-to-mp4) | Render Lottie to MP4 video (Node.js) |
+| [@koding-net/lottie-to-webm](https://github.com/Koding-net/lottie-to-webm) | Render Lottie to WebM with transparency (Node.js) |
+| [@koding-net/lottie-to-webp](https://github.com/Koding-net/lottie-to-webp) | Render Lottie to animated WebP (Node.js) |
+| [@koding-net/lottie-to-apng](https://github.com/Koding-net/lottie-to-apng) | Render Lottie to animated PNG (Node.js) |
+| [@koding-net/lottie-to-svg](https://github.com/Koding-net/lottie-to-svg) | Extract SVG frames in the browser |
 
 See all tools at [github.com/Koding-net/lottie-tools](https://github.com/Koding-net/lottie-tools).

@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * @kodeking/lottie-to-gif
+ * @koding-net/lottie-to-gif
  *
  * Convert a Lottie JSON animation to an animated GIF.
  * Uses Puppeteer to render frames and gifski (or ffmpeg) for encoding.
  *
  * CLI:  npx lottie-to-gif input.json output.gif [--fps 15] [--width 480]
- * API:  const { convertToGif } = require('@kodeking/lottie-to-gif')
+ * API:  const { convertToGif } = require('@koding-net/lottie-to-gif')
  */
 
 'use strict';
