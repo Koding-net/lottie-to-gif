@@ -1,0 +1,38 @@
+{
+  "name": "@kodeking/lottie-to-gif",
+  "version": "1.0.0",
+  "description": "Convert Lottie JSON animations to animated GIF — Node.js CLI and programmatic API",
+  "main": "src/index.js",
+  "bin": {
+    "lottie-to-gif": "src/index.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node src/index.js --help || true"
+  },
+  "keywords": [
+    "lottie",
+    "gif",
+    "lottie-to-gif",
+    "animation",
+    "converter",
+    "cli",
+    "puppeteer",
+    "gifski",
+    "ffmpeg",
+    "kodeking"
+  ],
+  "author": "KodeKing <hello@kodeking.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodeking/lottie-to-gif.git"
+  },
+  "homepage": "https://github.com/kodeking/lottie-to-gif#readme",
+  "bugs": { "url": "https://github.com/kodeking/lottie-to-gif/issues" },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "lottie-web": "^5.12.2",
+    "puppeteer": "^22.0.0"
+  }
+}
